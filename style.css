@@ -69,6 +69,29 @@ body {
         height: auto;
     }
 }
+@media (max-width: 700px) {
+    .upbox {
+        height: auto;
+        min-height: 70px;
+        padding: 6px 8px;
+        gap: 6px;
+    }
+
+    .upbox img {
+        width: 60px;
+        height: auto;
+    }
+
+    .brand-name {
+        font-size: 34px;
+    }
+
+    .menu-btn img {
+        width: 38px;
+        height: auto;
+    }
+}
+
 
 .menu-btn {
     background: transparent;
